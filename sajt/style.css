@@ -1,0 +1,497 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Chakra Petch", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#header {
+  width: 100%;
+  background: linear-gradient(to right, #010624, #070707);
+  height: 80px;
+}
+#header .centriranje-sadrzaja {
+  height: inherit;
+}
+#header #logo h1 {
+  font-family: "Tangerine", cursive !important;
+  letter-spacing: 0.5px;
+  font-size: 52px;
+  color: #f3f2fa;
+}
+#header #meni li {
+  margin-left: 24px;
+  font-size: 17px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.centriranje-sadrzaja {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #f3f2fa;
+}
+
+#baner {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("background.jpg");
+  width: 100%;
+  height: 550px;
+  align-items: flex-end;
+}
+
+#tekst-baner {
+  margin-right: 30px;
+  margin-bottom: 13px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 2px;
+  padding-bottom: 20px;
+}
+#tekst-baner h2, #tekst-baner p {
+  color: #f3f2fa;
+}
+#tekst-baner p {
+  font-size: 26px;
+  margin-bottom: 13px;
+}
+#tekst-baner h2 {
+  margin-bottom: 2px;
+  font-size: 33px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-fe {
+  justify-content: flex-end;
+}
+
+.slovo-plavo {
+  color: #647f9e;
+}
+
+.ikonice-stil {
+  font-size: 35px;
+  color: #f3f2fa;
+}
+
+#about-me {
+  width: 100%;
+  padding-bottom: 70px;
+  background-color: #070707;
+  border-top: 1px solid #f3f2fa;
+}
+
+#naslov-about, #naslov-services, #naslov-skill {
+  color: #f3f2fa;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+#naslov-about h2, #naslov-services h2, #naslov-skill h2 {
+  margin-right: 120px;
+  font-size: 27px;
+  border-bottom: 2px solid #647f9e;
+  width: 150px;
+  text-align: center;
+}
+
+img {
+  border-radius: 22px;
+  box-shadow: 0px 0px 10px #aaacbd;
+}
+
+#slika-1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#slika-1 p {
+  color: #f3f2fa;
+}
+#slika-1 #tekst-slika {
+  margin-top: 41px;
+  width: 50%;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 37px;
+}
+#slika-1 #tekst-slika i {
+  color: #f3f2fa;
+  font-size: 20px;
+  margin-top: 9px;
+}
+#slika-1 #tekst-slika #ikonice-about {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13px;
+}
+#slika-1 #tekst-slika #ikonice-about p {
+  margin-left: 10px;
+  font-size: 21px;
+  color: #647f9e;
+}
+#slika-1 #tekst-slika #ikonice-about .druga {
+  margin-left: 18px;
+}
+#slika-1 #tekst-slika #ikonice-about .drugi {
+  font-size: 22px;
+}
+
+#skills {
+  width: 100%;
+}
+
+#naslov-skill h2 {
+  margin-top: 60px;
+  width: 100px;
+  font-size: 29px;
+}
+
+#sadrzaj-skill {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+#sadrzaj-skill .blok-skill {
+  width: 30%;
+  color: #f3f2fa;
+  text-align: center;
+  box-shadow: 0px 0px 17px #647f9e;
+  margin-right: 3%;
+  border-radius: 5px;
+  padding-bottom: 50px;
+}
+#sadrzaj-skill .blok-skill i {
+  font-size: 103px;
+  color: #eb6703;
+}
+#sadrzaj-skill .blok-skill h3 {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+#sadrzaj-skill .blok-skill p {
+  font-size: 18px;
+}
+#sadrzaj-skill .blok-skill #tekst-skill {
+  text-align: center;
+}
+#sadrzaj-skill .blok-skill .dvojka {
+  color: #0550b9;
+}
+#sadrzaj-skill .blok-skill .bootstraap {
+  font-size: 93px;
+  color: #784db0;
+}
+
+#services {
+  padding-bottom: 100px;
+  width: 100%;
+}
+#services #sadrzaj-service {
+  margin-top: 50px;
+}
+#services #sadrzaj-service .blok-service {
+  text-align: center;
+  width: 45%;
+  margin-left: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px #aaacbd;
+  padding-bottom: 50px;
+  padding-top: 65px;
+}
+#services #sadrzaj-service .blok-service i {
+  font-size: 30px;
+  color: #0550b9;
+}
+#services #sadrzaj-service .blok-service h3 {
+  padding-top: 5px;
+  font-size: 23px;
+}
+#services #sadrzaj-service #gore-service {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#services #sadrzaj-service #gore-service .blok-service {
+  width: 44%;
+}
+
+#naslov-services {
+  color: #070707;
+}
+
+#dole-service {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+#dole-service .blok-service {
+  width: 44%;
+}
+
+#projects {
+  width: 100%;
+  background-color: #070707;
+  padding-bottom: 70px;
+}
+#projects #naslov-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3f2fa;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#projects #naslov-project h2 {
+  width: 10%;
+  border-bottom: 1px solid #647f9e;
+}
+#projects .blok-project {
+  box-shadow: 0px 0px 17px #aaacbd;
+  width: 37%;
+  border-radius: 6px;
+  color: #f3f2fa;
+  text-align: center;
+}
+#projects img {
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+#sadrzaj-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#reviews {
+  background-color: #070707;
+  padding-bottom: 80px;
+  width: 100%;
+}
+#reviews #sadrzaj-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#reviews #naslov-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3f2fa;
+}
+#reviews #naslov-review h2 {
+  width: 10%;
+  text-align: center;
+  border-bottom: 1px solid #647f9e;
+}
+
+.slika-blok-review {
+  margin-top: 10px;
+}
+.slika-blok-review img {
+  box-shadow: none;
+  width: 70%;
+  border-radius: 90%;
+}
+
+.blok-review {
+  background-color: #161515;
+  width: 23%;
+  text-align: center;
+  color: #f3f2fa;
+  border-radius: 10px;
+  border-top: 1px solid #647f9e;
+}
+.blok-review h4 {
+  color: #647f9e;
+  font-size: 22px;
+}
+.blok-review p {
+  margin: 10px 0px;
+}
+
+#gore-sadrzaj {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+}
+
+#sadrzaj-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #f3f2fa;
+  text-align: center;
+  margin-top: 50px;
+}
+#sadrzaj-about #sadrzaj-1-tekst {
+  margin-top: 70px;
+}
+#sadrzaj-about #sadrzaj-1-tekst h3 {
+  font-size: 23px;
+}
+#sadrzaj-about #sadrzaj-1-tekst p {
+  font-size: 21px;
+  color: #647f9e;
+  font-weight: bold;
+}
+#sadrzaj-about #sadrzaj-2-teskt {
+  margin-top: 70px;
+  width: 30%;
+  text-align: left;
+}
+#sadrzaj-about #sadrzaj-2-teskt h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+#sadrzaj-about #sadrzaj-2-teskt p {
+  font-size: 19px;
+  text-align: justify;
+}
+#sadrzaj-about #slika-about {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#slika-about {
+  width: 32%;
+}
+
+#fname {
+  width: 48%;
+}
+
+#lname {
+  width: 48%;
+  margin-left: 10px;
+}
+
+#mail {
+  width: 48%;
+}
+
+#sbj {
+  width: 48%;
+  margin-left: 10px;
+}
+
+#poruka {
+  width: 100%;
+}
+
+input {
+  margin-top: 60px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid #161515;
+}
+
+#first-last-name {
+  width: 70%;
+  box-shadow: 0px 0px 10px #aaacbd;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#naslov-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#naslov-contact h2 {
+  font-size: 30px;
+  width: 20%;
+  border-bottom: 1px solid #647f9e;
+  font-size: 27px;
+}
+
+#forma-forma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::-moz-placeholder {
+  font-size: 23px;
+}
+
+::placeholder {
+  font-size: 23px;
+}
+
+#dugme {
+  text-align: center;
+}
+
+#subm {
+  width: 10%;
+  font-size: 22px;
+  border: none;
+  background-color: #647f9e;
+  color: #f3f2fa;
+  border-radius: 5px;
+}
+
+#forma-contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #070707;
+  color: #f3f2fa;
+}
+
+#naslov-services h2 {
+  margin-right: 0px;
+}
+
+#naslov-skill h2 {
+  font-size: 27px;
+  margin-right: 0px;
+}
+
+#naslov-about h2, #naslov-skill h2, #naslov-services h2 {
+  margin-right: 0px;
+}
+
+#footer #ikoniceee {
+  margin-left: 30px;
+}
+#footer i {
+  font-size: 32px;
+  margin-right: 10px;
+}
+#footer #tekst-prava p {
+  font-size: 22px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,709 @@
+$pisanifont: 'Tangerine', cursive;
+$bela:#f3f2fa;
+$zelena:#2da671;
+$font:'Chakra Petch', sans-serif;
+$plava:#647f9e;
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: $font;
+    scroll-behavior: smooth;
+    
+}   
+
+  
+  
+  #header{
+    width: 100%;
+    background:linear-gradient(to right , #010624,#070707) ;
+    //border-bottom: 0.1px solid #647f9e
+
+
+
+    height: 80px;
+    .centriranje-sadrzaja{
+        height:inherit;
+    }
+    
+    
+
+    #logo{
+        
+
+           
+        h1{
+            font-family: $pisanifont!important;
+            letter-spacing: 0.5px;
+            font-size: 52px;
+            color:$bela
+        }
+    }
+    
+    #meni{
+
+        li{
+            margin-left: 24px;;
+            font-size: 17px;;
+            font-family: $font;
+           
+        }
+        
+    }
+ 
+}
+
+.centriranje-sadrzaja{
+    width:80%;
+    margin:0px auto;
+}
+
+.flex-sb{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+ul{
+    list-style-type: none;
+
+    li{
+        display: inline;
+    }
+}
+a{
+    text-decoration: none;
+    color:$bela
+}
+#baner{
+    width: 100%;
+    background-size: cover ;
+    background-position: center;
+    background-image: url("background.jpg") ;
+    width:100%;
+    height:550px;
+    align-items: flex-end;
+    
+}
+#tekst-baner{
+    margin-right: 30px;
+    margin-bottom: 13px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.03);
+border-radius: 2px;
+padding-bottom: 20px;
+
+    h2,p{
+        color:$bela
+    }
+    p{
+        font-size:26px;
+        margin-bottom: 13px;
+        
+
+    }
+    h2{
+        margin-bottom: 2px;
+        font-size: 33px;
+    }
+}
+.flex{
+    display: flex;
+    
+}
+.flex-fe{
+    justify-content: flex-end;
+}
+.slovo-plavo{
+    color:#647f9e
+}
+
+
+
+
+
+.ikonice-stil{
+
+    font-size: 35px;
+    color:#f3f2fa;  
+}
+#about-me{
+
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #070707;
+    border-top: 1px solid #f3f2fa;
+}
+#naslov-about{
+    color:$bela;
+    display:flex;
+    margin-top:20px;
+    
+    
+    justify-content: center;
+    h2{
+
+        margin-right: 120px;
+        font-size: 27px;
+        border-bottom: 2px solid $plava;
+        width:150px;
+        text-align: center;
+    }
+}
+img{
+
+    border-radius: 22px;
+    //box-shadow: 0px 0px 12px 0px $plava ;
+    box-shadow: 0px 0px 10px #aaacbd ;
+}
+#slika-1{
+    margin-top: 50px;
+    p{
+        color:$bela
+    }
+    display: flex;
+    justify-content: space-between;
+
+    #tekst-slika{
+margin-top: 41px;
+        width:50%;
+        font-size: 25px;
+        text-align: justify;
+        line-height: 37px;
+
+        i{
+            
+            color:#f3f2fa;
+            font-size:20px;
+            margin-top: 9px;
+            
+        }
+        #ikonice-about{
+
+            display: flex;
+            flex-direction: row;
+            margin-top: 13px;
+            p{
+                margin-left: 10px;
+                font-size: 21px;
+                color:$plava
+                
+            
+                
+            }
+            .druga{
+
+                margin-left: 18px;
+            }
+            .drugi{
+                font-size: 22px;
+            }
+        }
+    }
+
+}
+
+
+#skills{
+
+
+    width: 100%
+}
+#naslov-skill{@extend #naslov-about; 
+
+   
+h2{
+    margin-top:60px;
+    width:100px;
+    font-size: 29px;
+}
+
+}
+
+#sadrzaj-skill{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+    .blok-skill{
+        width:30%;
+        color:$bela;
+        text-align:center;
+        box-shadow: 0px 0px 17px $plava ;
+        margin-right: 3%;
+        border-radius: 5px;
+        padding-bottom: 50px;
+      
+        i{
+            font-size: 103px;
+            color:#eb6703
+            
+        }
+        h3{
+            margin-top: 7px;
+            margin-bottom: 5px;
+            font-size: 22px;
+            
+
+
+        }
+        p{
+            font-size: 18px;
+            ;
+        }
+
+        #tekst-skill{
+            text-align: center;
+        }
+        .dvojka{
+
+            
+                color:#0550b9
+            
+        }
+
+        .bootstraap{
+
+            font-size: 93px;
+            color:#784db0;
+        }
+
+    }
+}
+
+#services{
+
+    padding-bottom: 100px;
+    width: 100%;
+
+#sadrzaj-service{
+
+    margin-top: 50px;
+
+    .blok-service{
+
+        text-align: center;
+        //background-color: #647f9e;
+        width: 45%;
+        margin-left: 5%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 17px #aaacbd ;
+        padding-bottom: 50px;
+        padding-top: 65px;
+       i{
+
+        font-size: 30px;
+        color: #0550b9;
+       }
+       h3{
+padding-top: 5px;
+        font-size: 23px;
+       }
+      
+    }
+
+  
+    #gore-service{
+width: 100%;
+        display: flex;
+        flex-direction: row;
+        .blok-service{
+
+            width: 44%;
+        }
+
+
+    }
+
+}
+
+
+
+
+}
+
+
+#naslov-services{ @extend #naslov-about;
+
+
+    color:#070707;
+}
+
+
+
+#dole-service{
+
+margin-top:50px;
+
+    display: flex;
+    flex-direction: row;
+    .blok-service{
+
+        width: 44%;
+    }
+
+
+
+}
+#projects{
+    
+
+    #naslov-project{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        h2{
+            width: 10%;
+        border-bottom: 1px solid $plava;
+        
+    }
+color: $bela;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+.blok-project{
+    box-shadow: 0px 0px 17px #aaacbd ;
+    width: 37%;
+    border-radius: 6px;
+
+color: $bela;
+
+    text-align: center;
+}
+img{
+
+
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+    width: 100%;
+    background-color: #070707;
+    padding-bottom: 70px;
+}
+#sadrzaj-project{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+#reviews{
+
+
+    background-color: #070707;
+    padding-bottom: 80px;
+    width: 100%;
+#sadrzaj-review{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+margin-top: 50px;
+}
+
+    
+        #naslov-review{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $bela;
+
+            h2{
+                width: 10%;
+                text-align: center;
+            border-bottom: 1px solid $plava;
+            
+        }
+
+
+    }
+}
+
+.slika-blok-review{
+margin-top: 10px;
+
+
+    img{
+
+box-shadow: none;
+width: 70%;
+border-radius: 90%
+    }
+}
+
+.blok-review{
+    background-color: #161515;
+width: 23%;
+text-align: center;
+    color: $bela;
+border-radius: 10px;
+border-top: 1px solid $plava;
+
+    h4{
+
+        color: $plava;
+        font-size: 22px;
+    }
+    p{
+
+margin:10px 0px;
+        
+    }
+}
+#gore-sadrzaj{
+width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+#sadrzaj-about{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: $bela;
+    text-align: center;
+
+    margin-top: 50px;
+
+    #sadrzaj-1-tekst{
+margin-top: 70px;
+
+        h3{
+
+            font-size: 23px;
+        }
+        p{
+
+            font-size: 21px;
+            color: $plava;
+            font-weight: bold;
+        }
+       
+    }
+    
+    #sadrzaj-2-teskt{
+margin-top: 70px;
+        width: 30%;
+
+h3{
+
+margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+p{
+
+
+    font-size: 19px;
+    text-align: justify;
+}
+
+        text-align: left;
+    }
+
+
+
+
+    
+
+    #slika-about{
+
+
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+  
+   
+
+}
+
+#slika-about{
+    width: 32%;
+}
+
+
+#fname{
+width: 48%;
+
+
+}
+
+#lname{
+    width: 48%;
+    
+    margin-left: 10px;
+    
+    }
+
+    #mail{
+
+        width: 48%;
+
+    }
+
+    #sbj{
+
+        width: 48%;
+        margin-left: 10px;
+        
+    }
+
+    #poruka{
+
+       
+
+        width: 100%;
+    }
+
+    input{
+        margin-top: 60px;
+
+        height: 25px;
+        border: none;
+       border-bottom: 1px solid #161515;
+    }
+    #first-last-name{
+       
+        
+
+       
+width: 70%;
+        box-shadow: 0px 0px 10px #aaacbd ;
+        border-radius: 10px;
+
+margin-top: 50px;
+
+
+
+
+
+    }
+    #naslov-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+        h2{
+            font-size: 30px;
+            width: 20%;
+        border-bottom: 1px solid $plava;
+        font-size: 27px;
+        
+    }
+    }
+
+    #forma-forma{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ::placeholder{
+
+       
+        font-size: 23px;
+    }
+
+    #dugme{
+
+
+        text-align: center;
+    }
+
+    #subm{
+
+
+        width: 10%;
+        font-size: 22px;
+        border: none;
+        background-color: $plava;
+        color: $bela;
+        border-radius: 5px;
+        
+    }
+
+    #forma-contact{
+
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+    #footer{
+margin-top: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+        background-color: #070707;
+        color: $bela;
+    }
+
+    #naslov-services{
+
+
+        h2{
+
+            margin-right: 0px;
+        }
+    }
+
+
+    #naslov-skill{
+
+
+        h2{
+font-size: 27px;
+            margin-right: 0px;
+        }
+    }
+
+
+    #naslov-about{
+
+
+        h2{
+
+            margin-right: 0px;
+        }
+    }
+    #footer{
+#ikoniceee{
+margin-left: 30px;
+
+
+
+
+}
+i{
+
+
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+#tekst-prava{
+
+p{
+
+    font-size: 22px;
+}
+
+
+
+}
+
+
+    }

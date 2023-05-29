@@ -1,0 +1,864 @@
+@media screen and   ( max-width: 426px) {
+    .flex-sb{
+    
+        display: block;
+    }
+    .centriranje-sadrzaja{
+        width:100%;
+    }
+    #header{
+    
+        #meni{
+    
+            li :first-child{
+                margin-left: 0px;
+    
+            }
+        }
+    
+    
+            #logo{
+    
+    
+                h1{
+                    font-size: 45px;
+                }
+            }
+        }
+        #tekst-baner{
+    
+            margin-bottom: -17px;
+            h2{
+                font-size: 27px;
+            }
+        }
+    }
+    @media screen and   ( max-width: 376px){
+    
+        #header{
+    
+    
+            #meni{
+    
+                li{
+    
+                    margin-left: 10px;
+                }
+            }
+        }
+    
+    }
+    @media screen and   ( max-width: 1025px) {
+
+        #slika-about{
+          
+            img{
+
+                height: 320px;
+            }
+        }
+
+        #sadrzaj-about{
+#sadrzaj-2-teskt{
+
+    margin-top: 0px;
+}
+#sadrzaj-1-tekst{
+
+    margin-top: 40px;
+}
+}
+
+#projects{
+        .blok-project{
+
+            width: 47%;
+
+        }
+    }
+        #sadrzaj-project{
+
+            justify-content: space-around;
+        }
+
+
+    }
+
+
+    @media screen and   ( max-width: 921px) {
+.centriranje-sadrzaja{
+    width: 90%;
+}
+       
+
+        #sadrzaj-skill{
+
+
+            .blok-skill{
+
+p{
+    font-size: 16px;
+}
+            }
+        }
+
+
+        }
+        @media screen and   ( max-width: 769px) {
+#naslov-contact{
+
+
+
+    h2{
+
+
+        width: 25%;
+    }
+}
+
+
+
+
+
+#tekst-baner{
+
+
+    margin-right: 130px;
+    margin-bottom: -17px
+}
+
+#sadrzaj-about{
+    flex-wrap: wrap;
+    margin-top: 0px;
+
+#sadrzaj-1-tekst{
+
+
+
+    width: 100%;
+}
+#sadrzaj-2-teskt{
+
+
+
+    width: 60%;
+}
+#slika-about{
+
+
+
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+}
+
+
+
+
+            #projects{
+
+.blok-project{
+
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+
+            }
+            
+
+
+
+
+
+
+           #sadrzaj-project{
+
+flex-direction: column;
+align-items: center;
+
+
+
+           } 
+            
+            
+            
+            
+            
+            #slika-1{
+
+#tekst-slika{
+
+    font-size: 20px;
+    line-height: 31px;
+}
+
+
+            }
+
+
+
+            
+        }
+
+        @media screen and   ( max-width: 601px){
+
+
+#subm{
+
+
+    width: 15%;
+}
+
+
+
+
+            #naslov-contact{
+
+
+
+                h2{
+            
+            
+                    width: 29%;
+                }
+            }
+            
+
+
+
+            #projects{
+
+
+                #naslov-project{
+    
+    
+    
+                    h2{
+    
+                        width: 25%;
+                    }
+                }
+
+
+            }
+
+            #reviews{
+
+
+                #naslov-review{
+    
+    
+    
+                    h2{
+    
+                        width: 20%;
+                    }
+                }
+
+
+            }
+
+#sadrzaj-about{
+            #slika-about{
+
+
+
+                width: 45%;
+                
+            }
+        }
+
+            #projects{
+
+                .blok-project{
+                
+                    width: 70%;
+                    
+                }
+                
+                
+                            }
+
+
+.flex-sb{
+
+    flex-direction: column;
+    align-items: center;
+}
+#header{
+#meni{
+
+
+    width: 100%;
+}
+            .centriranje-sadrzaja{
+            width:95%;
+            }
+
+        }
+
+#logo{
+
+
+    width:30%;
+    
+}
+#meni{
+
+
+    width:70%;
+    
+}
+#header{
+
+
+
+    #meni{
+
+
+        li{
+            margin-left: 10px;
+        }
+    }
+}
+#tekst-baner{
+
+margin-right: 82px;
+
+    h2{
+
+        font-size: 30px;
+    }
+    p{
+
+        font-size: 22px;
+    }
+}
+#slika-1{
+
+
+    p{
+        font-size: 22px;
+    }
+}
+
+#about-me{
+
+
+    .centriranje-sadrzaja{
+        width: 95%;
+    }
+}
+#sadrzaj-skill{
+
+
+    .blok-skill{
+
+p{
+font-size: 14px;
+}
+}
+
+        }
+
+    
+
+    
+
+    } 
+    @media screen and   ( max-width: 481px){
+#footer{
+
+
+
+    #tekst-prava{
+
+
+
+        p{
+
+
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+ #fname{
+    margin-left: 15px;
+    width: 88%;
+ }
+ #lname{@extend#fname
+   
+ }
+
+ #mail{@extend#fname
+    
+ }
+ #sbj{@extend#fname
+    
+ }
+ #poruka{@extend#fname
+    
+ }
+ #subm{
+
+
+    width: 18%;
+ }
+
+
+
+
+
+        #naslov-contact{
+
+
+
+            h2{
+        
+        
+                width: 35%;
+            }
+        }
+
+
+
+
+
+
+        #sadrzaj-about{
+            #slika-about{
+
+
+
+                width: 55%;
+                
+            }
+        }
+
+        .blok-review{
+
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+#reviews{
+
+#naslov-review{
+
+
+
+    h2{
+
+
+        width: 30%;
+    }
+}
+
+
+    #sadrzaj-review{
+        flex-wrap: wrap;
+
+
+
+    }
+}
+
+
+
+
+        #projects{
+
+
+            #naslov-project{
+
+
+
+                h2{
+
+                    width: 30%;
+                }
+            }
+
+            .blok-project{
+            
+                width: 90%;
+                
+            }
+            
+            
+                        }
+
+
+
+
+
+
+
+header{
+
+    height: inherit;
+}
+#sadrzaj-skill{
+
+
+
+    flex-direction: column;
+    align-items: center;
+    .blok-skill{
+
+        width: 70%;
+    }
+}
+.flex-sb{
+
+    display: block;
+}
+#meni{
+
+    width: 100%;
+}
+#logo{
+
+    width: 100%;
+}
+#tekst-baner {
+
+margin-right: 2px;
+
+
+    h2{
+
+
+        font-size: 28px;
+    }
+}
+
+#slika-1{
+
+    flex-direction: column;
+    align-items: center;
+
+#tekst-slika{
+
+
+    width: 89%;
+    line-height: 25px;
+}
+}
+#sadrzaj-skill{
+
+
+    .blok-skill{
+
+
+        margin-bottom: 20px;
+    }
+}
+
+
+    }
+
+    @media screen and   ( max-width: 426px){
+        #footer{
+
+
+
+            #tekst-prava{
+        
+        
+        
+                p{
+        
+        
+                    font-size: 16px;
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+        #first-last-name{
+
+
+
+
+            width: 85%;
+        }
+
+
+
+        #sadrzaj-about{
+            #slika-about{
+
+
+
+                width: 62%;
+                
+            }
+        }
+
+#projects{
+
+.blok-project{
+
+
+    width: 99%;
+}
+
+}
+
+
+
+
+
+#header{
+
+
+
+    .centriranje-sadrzaja{
+        width: 100%;
+    }
+    #meni{
+
+
+        li{
+
+            margin-left: 8px;
+        }
+    }
+}
+
+#services{
+    #sadrzaj-service{
+
+
+        #gore-service{
+
+
+            flex-direction: column;
+            align-items: center;
+            .blok-service{
+
+                width: 80%;
+            }
+        }
+    }
+}
+#dole-service{@extend#gore-service;   margin-top: 0px;}
+
+
+    }
+    .blok-service{
+        margin-bottom: 15px;
+        width:80%;
+    }
+
+    @media screen and   ( max-width: 376px){
+        #footer{
+
+
+
+            #tekst-prava{
+        
+        
+        
+                p{
+        
+        
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
+        #naslov-contact{
+
+
+
+            h2{
+
+
+                width: 39%;
+            }
+        }
+
+
+        #sadrzaj-about{
+            #slika-about{
+
+
+
+                width: 68%;
+                
+            }
+            #sadrzaj-2-teskt{
+
+
+                width: 65%;
+
+
+            }
+        }
+
+#projects{
+
+img{
+
+    height: 180px;
+}
+
+
+
+}
+        .blok-review{
+
+
+            width: 75%;
+        }
+
+ul{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+        #header{
+height: inherit;
+
+            #meni{
+
+                li{
+
+                    margin-left: 9px;
+                }
+            }
+        }
+    }
+
+    @media screen and   ( max-width: 321px){
+        #sadrzaj-about{
+            #slika-about{
+
+
+
+                width:80%;
+                
+            }
+         
+        }
+
+
+
+
+
+
+
+        #footer{
+
+
+
+            #tekst-prava{
+        
+        
+        
+                p{
+        
+        
+                    font-size: 11px;
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+        #naslov-contact{
+
+
+
+            h2{
+
+
+                width: 47%;
+            }
+        }
+
+
+#subm{
+
+
+    width: 24%;
+}
+
+
+
+
+        #sadrzaj-about{
+            #slika-about{
+
+
+
+                width: 77%;
+                
+            }
+            #sadrzaj-2-teskt{
+                width: 85%;
+
+                p{
+
+
+                    text-align: left;
+                    
+                }
+            }
+
+        }
+
+
+
+
+        #header{
+
+
+            #meni{
+
+
+                li{
+
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+    }
